@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🍬 Sweet Shop Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #fff8f0;
+    }
+    h1 { color: #d17b00; }
+    input, button {
+      margin: 5px;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th { background-color: #ffd6a5; }
+  </style>
+</head>
+<body>
+  <h1>🍭 Sweet Shop Management</h1>
+
+  <div>
+    <input id="sweetName" placeholder="Sweet Name">
+    <input id="sweetPrice" placeholder="Price" type="number">
+    <input id="sweetQty" placeholder="Quantity" type="number">
+    <button onclick="addSweet()">Add Sweet</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Sweet Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody id="sweetTableBody"></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
