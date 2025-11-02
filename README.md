@@ -121,13 +121,39 @@ axios.get(`${API_URL}/api/sweets`)
 
 * Include sales analytics dashboard
 
+  ## Use of AI Assistance
+  
+
+During the development of the Sweet Shop Management System, I leveraged AI tools (ChatGPT) as a learning and productivity aid. AI support was used responsibly to enhance understanding and efficiency throughout the project lifecycle.
+
+How AI Was Used:
+
+ Project Structuring: Assisted in designing the overall architecture for a full-stack setup using Spring Boot (backend) and React (frontend).
+
+ Error Resolution: Helped analyze Maven and Node.js build issues, configuration errors, and integration problems.
+
+ Code Documentation: Supported in improving code readability, writing concise comments, and generating a professional README.md file.
+
+ Learning & Concept Clarity: Provided guidance on backend REST API design, database connectivity, and frontend-to-backend communication via Axios.
+
+ Debugging & Testing: Suggested effective ways to test APIs, validate data, and ensure smooth communication between components.
+
+Note: All coding, implementation, debugging, and final deployment were performed by me. AI tools were used only as learning and support resources to accelerate development and understanding.
+
  Developed By
  -------------
 
 Bhoomika R
-🎓 MCA – III Semester
-💡 Subject: Machine Learning / Software Engineering
-📅 Year: 2025
+ MCA – III Semester
+ Year: 2025
+
+
+Co-Author / Assistant
+----------------------
+
+ ChatGPT (OpenAI)
+
+ 
 
  Conclusion
  -----------
